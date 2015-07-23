@@ -1,0 +1,17 @@
+(require 'cl)
+(prelude-require-package 'adoc-mode)
+(require 'adoc-mode)
+;;(require 'real-auto-save)
+
+(add-to-list 'auto-mode-alist (cons "\\.txt\\'" 'adoc-mode))
+(add-to-list 'auto-mode-alist (cons "\\.ad\\'" 'adoc-mode))
+(add-to-list 'auto-mode-alist (cons "\\.adoc\\'" 'adoc-mode))
+
+(add-hook 'adoc-mode-hook (lambda()
+                            (buffer-face-mode t)
+                            (setq require-final-newline nil)
+                            (visual-line-mode)
+                            (ethan-wspace-mode nil)
+                            (smartparens-mode)
+                            (sp-unicode-quotes-mode)))
+(add-hook 'adoc-mode-hook 'turn-on-real-auto-save)
