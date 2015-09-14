@@ -40,6 +40,7 @@
  '(js2-highlight-level 3)
  '(js2-indent-switch-body t)
  '(js2-mode-indent-inhibit-undo nil)
+ '(magit-diff-arguments (quote ("--ignore-all-space")))
  '(magit-diff-refine-hunk nil)
  '(magit-git-executable "/usr/bin/git")
  '(magit-highlight-indentation nil)
