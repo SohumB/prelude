@@ -13,6 +13,7 @@
  '(cider-lein-command "~/.tilde/bin/lein")
  '(clojure-defun-indents (quote (root render)))
  '(company-dabbrev-code-everywhere t)
+ '(css-indent-offset 2)
  '(custom-safe-themes
    (quote
     ("119d3875a0e29c0c3af025a157493c950753c02519986365806276e370bd0033" default)))
