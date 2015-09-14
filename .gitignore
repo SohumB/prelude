@@ -26,3 +26,5 @@ tramp
 abbrev_defs
 ensime/
 target/
+ido.last
+smex-items
