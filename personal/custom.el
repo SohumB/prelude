@@ -48,7 +48,7 @@
  '(magit-highlight-indentation nil)
  '(magit-highlight-trailing-whitespace nil)
  '(magit-highlight-whitespace nil)
- '(magit-revert-buffers t)
+ '(magit-revert-buffers t t)
  '(magit-use-overlays t)
  '(mode-require-final-newline nil)
  '(paradox-automatically-star t)
