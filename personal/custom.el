@@ -16,6 +16,7 @@
  '(custom-safe-themes
    (quote
     ("119d3875a0e29c0c3af025a157493c950753c02519986365806276e370bd0033" default)))
+ '(elm-format-on-save t)
  '(flycheck-haskell-ghc-executable "ghc")
  '(grep-command "grep -nH -e ")
  '(grep-find-command (quote ("find . -type f -exec grep -nH -e  {} +" . 34)))
