@@ -1,6 +1,5 @@
-(prelude-require-package 'ensime)
-
+(prelude-require-packages '(scala-mode2 ensime))
 (require 'prelude-scala)
 (require 'ensime)
-
-(add-hook 'prelude-scala-mode-hook 'ensime-scala-mode-hook)
+(add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
+(add-hook 'scala-mode-hook 'sp-hybrid-mode)

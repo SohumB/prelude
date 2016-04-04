@@ -24,4 +24,7 @@ tramp
 .emacs.desktop
 .emacs.desktop.lock
 abbrev_defs
-ensime
+ensime/
+target/
+ido.last
+smex-items
