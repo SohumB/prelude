@@ -3,6 +3,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-names-vector
+   ["#ecf0f1" "#e74c3c" "#2ecc71" "#f1c40f" "#2492db" "#9b59b6" "#1abc9c" "#2c3e50"])
  '(c-basic-offset 2)
  '(c-default-style
    (quote
@@ -19,6 +21,10 @@
     ("119d3875a0e29c0c3af025a157493c950753c02519986365806276e370bd0033" default)))
  '(ensime-sbt-command "/home/sohum/.tilde/bin/sbt")
  '(ensime-tooltip-hints nil)
+ '(elm-format-on-save t)
+ '(ensime-graphical-tooltips nil)
+ '(ensime-tooltip-hints nil)
+ '(fci-rule-color "#f1c40f")
  '(flycheck-haskell-ghc-executable "ghc")
  '(grep-command "grep -nH -e ")
  '(grep-find-command (quote ("find . -type f -exec grep -nH -e  {} +" . 34)))
@@ -37,6 +43,8 @@
  '(haskell-process-path-ghci "ghci")
  '(haskell-process-type (quote cabal-repl))
  '(haskell-process-use-presentation-mode t)
+ '(hl-paren-background-colors (quote ("#2492db" "#95a5a6" nil)))
+ '(hl-paren-colors (quote ("#ecf0f1" "#ecf0f1" "#c0392b")))
  '(js2-basic-offset 2)
  '(js2-bounce-indent-p nil)
  '(js2-global-externs (quote ("Em" "Ember")))
@@ -71,12 +79,34 @@
  '(sbt:program-name "/home/sohum/.tilde/bin/sbt")
  '(scala-indent:use-javadoc-style t)
  '(sp-hybrid-kill-entire-symbol (quote sp-point-in-string))
+ '(sml/active-background-color "#34495e")
+ '(sml/active-foreground-color "#ecf0f1")
+ '(sml/inactive-background-color "#dfe4ea")
+ '(sml/inactive-foreground-color "#34495e")
  '(sp-hybrid-kill-excessive-whitespace t)
  '(sp-navigate-consider-stringlike-sexp (quote (latex-mode scala-mode)))
  '(sql-indent-first-column-regexp
    "^\\s-*\\(--\\|create\\|d\\(?:elete\\|rop\\)\\|from\\|group\\|having\\|in\\(?:sert\\|t\\(?:ersect\\|o\\)\\)\\|order\\|se\\(?:\\(?:lec\\)?t\\)\\|truncate\\|u\\(?:nion\\|pdate\\)\\|where\\|begin\\|commit\\|rollback\\|alter\\)\\(\\b\\|\\s-\\)")
  '(sql-indent-offset 2)
  '(sql-user "sohum")
+ '(tramp-default-method "ssh")
+ '(tramp-verbose 9)
+ '(vc-annotate-background "#ecf0f1")
+ '(vc-annotate-color-map
+   (quote
+    ((30 . "#e74c3c")
+     (60 . "#c0392b")
+     (90 . "#e67e22")
+     (120 . "#d35400")
+     (150 . "#f1c40f")
+     (180 . "#d98c10")
+     (210 . "#2ecc71")
+     (240 . "#27ae60")
+     (270 . "#1abc9c")
+     (300 . "#16a085")
+     (330 . "#2492db")
+     (360 . "#0a74b9"))))
+ '(vc-annotate-very-old-color "#0a74b9")
  '(web-mode-attr-indent-offset 2)
  '(web-mode-code-indent-offset 2)
  '(web-mode-enable-auto-pairing t)

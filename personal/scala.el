@@ -1,4 +1,5 @@
 (prelude-require-packages '(scala-mode2 ensime))
+(require 'prelude-scala)
 (require 'ensime)
 (setf ensime-startup-snapshot-notification nil)
 ;(setq ensime-server-version "2.0.0-graph-SNAPSHOT")
