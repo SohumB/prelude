@@ -17,6 +17,8 @@
  '(custom-safe-themes
    (quote
     ("119d3875a0e29c0c3af025a157493c950753c02519986365806276e370bd0033" default)))
+ '(ensime-sbt-command "/home/sohum/.tilde/bin/sbt")
+ '(ensime-tooltip-hints nil)
  '(flycheck-haskell-ghc-executable "ghc")
  '(grep-command "grep -nH -e ")
  '(grep-find-command (quote ("find . -type f -exec grep -nH -e  {} +" . 34)))
@@ -25,7 +27,7 @@
     ("SCCS" "RCS" "CVS" "MCVS" ".svn" ".git" ".hg" ".bzr" "_MTN" "_darcs" "{arch}" "node_modules" "dist" "bower_components" "tmp" "coverage" "build" "target" ".ensime_cache" "orcats_files")))
  '(grep-find-ignored-files
    (quote
-    (".#*" "*.beam" "*.vee" "*.jam" "*.cmti" "*.cmt" "*.annot" "*.cmi" "*.cmxa" "*.cma" "*.cmx" "*.cmo" "*.o" "*~" "*.bin" "*.lbin" "*.so" "*.a" "*.ln" "*.blg" "*.bbl" "*.elc" "*.lof" "*.glo" "*.idx" "*.lot" "*.fmt" "*.tfm" "*.class" "*.fas" "*.lib" "*.mem" "*.x86f" "*.sparcf" "*.dfsl" "*.pfsl" "*.d64fsl" "*.p64fsl" "*.lx64fsl" "*.lx32fsl" "*.dx64fsl" "*.dx32fsl" "*.fx64fsl" "*.fx32fsl" "*.sx64fsl" "*.sx32fsl" "*.wx64fsl" "*.wx32fsl" "*.fasl" "*.ufsl" "*.fsl" "*.dxl" "*.lo" "*.la" "*.gmo" "*.mo" "*.toc" "*.aux" "*.cp" "*.fn" "*.ky" "*.pg" "*.tp" "*.vr" "*.cps" "*.fns" "*.kys" "*.pgs" "*.tps" "*.vrs" "*.pyc" "*.pyo" "*.map")))
+    (".ensime" ".#*" "*.beam" "*.vee" "*.jam" "*.cmti" "*.cmt" "*.annot" "*.cmi" "*.cmxa" "*.cma" "*.cmx" "*.cmo" "*.o" "*~" "*.bin" "*.lbin" "*.so" "*.a" "*.ln" "*.blg" "*.bbl" "*.elc" "*.lof" "*.glo" "*.idx" "*.lot" "*.fmt" "*.tfm" "*.class" "*.fas" "*.lib" "*.mem" "*.x86f" "*.sparcf" "*.dfsl" "*.pfsl" "*.d64fsl" "*.p64fsl" "*.lx64fsl" "*.lx32fsl" "*.dx64fsl" "*.dx32fsl" "*.fx64fsl" "*.fx32fsl" "*.sx64fsl" "*.sx32fsl" "*.wx64fsl" "*.wx32fsl" "*.fasl" "*.ufsl" "*.fsl" "*.dxl" "*.lo" "*.la" "*.gmo" "*.mo" "*.toc" "*.aux" "*.cp" "*.fn" "*.ky" "*.pg" "*.tp" "*.vr" "*.cps" "*.fns" "*.kys" "*.pgs" "*.tps" "*.vrs" "*.pyc" "*.pyo" "*.map")))
  '(grep-find-template "find . <X> -type f <F> -exec grep <C> -nH -e <R> {} +")
  '(grep-highlight-matches (quote auto))
  '(grep-scroll-output t)
@@ -47,9 +49,10 @@
  '(magit-highlight-indentation nil)
  '(magit-highlight-trailing-whitespace nil)
  '(magit-highlight-whitespace nil)
- '(magit-revert-buffers t)
+ '(magit-revert-buffers t t)
  '(magit-use-overlays t)
  '(mode-require-final-newline nil)
+ '(mouse-avoidance-mode nil nil (avoid))
  '(paradox-automatically-star t)
  '(safe-local-variable-values
    (quote
@@ -65,7 +68,11 @@
               1
               (quote font-lock-variable-name-face)))))
      (SQL-product . postgres))))
+ '(sbt:program-name "/home/sohum/.tilde/bin/sbt")
+ '(scala-indent:use-javadoc-style t)
+ '(sp-hybrid-kill-entire-symbol (quote sp-point-in-string))
  '(sp-hybrid-kill-excessive-whitespace t)
+ '(sp-navigate-consider-stringlike-sexp (quote (latex-mode scala-mode)))
  '(sql-indent-first-column-regexp
    "^\\s-*\\(--\\|create\\|d\\(?:elete\\|rop\\)\\|from\\|group\\|having\\|in\\(?:sert\\|t\\(?:ersect\\|o\\)\\)\\|order\\|se\\(?:\\(?:lec\\)?t\\)\\|truncate\\|u\\(?:nion\\|pdate\\)\\|where\\|begin\\|commit\\|rollback\\|alter\\)\\(\\b\\|\\s-\\)")
  '(sql-indent-offset 2)
@@ -80,7 +87,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#ecf0f1" :foreground "#2c3e50" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight light :height 105 :width normal :foundry "unknown" :family "Input Mono"))))
+ '(default ((t (:inherit nil :stipple nil :background "#ecf0f1" :foreground "#2c3e50" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "unknown" :family "mononoki"))))
  '(highlight ((t (:background "PaleTurquoise1"))))
  '(magit-item-highlight ((t (:inherit secondary-selection :background "#dfe4ea"))))
  '(magit-section-title ((t (:inherit header-line :foreground "gainsboro" :weight bold))))
