@@ -14,4 +14,4 @@
                             (ethan-wspace-mode nil)
                             (smartparens-mode)
                             (sp-unicode-quotes-mode)))
-(add-hook 'adoc-mode-hook 'turn-on-real-auto-save)
+;;(add-hook 'adoc-mode-hook 'turn-on-real-auto-save)
