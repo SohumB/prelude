@@ -19,10 +19,9 @@
  '(custom-safe-themes
    (quote
     ("119d3875a0e29c0c3af025a157493c950753c02519986365806276e370bd0033" default)))
- '(ensime-sbt-command "/home/sohum/.tilde/bin/sbt")
- '(ensime-tooltip-hints nil)
  '(elm-format-on-save t)
  '(ensime-graphical-tooltips nil)
+ '(ensime-sbt-command "/home/sohum/.tilde/bin/sbt")
  '(ensime-tooltip-hints nil)
  '(fci-rule-color "#f1c40f")
  '(flycheck-haskell-ghc-executable "ghc")
@@ -78,11 +77,11 @@
      (SQL-product . postgres))))
  '(sbt:program-name "/home/sohum/.tilde/bin/sbt")
  '(scala-indent:use-javadoc-style t)
- '(sp-hybrid-kill-entire-symbol (quote sp-point-in-string))
  '(sml/active-background-color "#34495e")
  '(sml/active-foreground-color "#ecf0f1")
  '(sml/inactive-background-color "#dfe4ea")
  '(sml/inactive-foreground-color "#34495e")
+ '(sp-hybrid-kill-entire-symbol (quote sp-point-in-string))
  '(sp-hybrid-kill-excessive-whitespace t)
  '(sp-navigate-consider-stringlike-sexp (quote (latex-mode scala-mode)))
  '(sql-indent-first-column-regexp
@@ -117,7 +116,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#ecf0f1" :foreground "#2c3e50" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "unknown" :family "mononoki"))))
+ '(default ((t (:inherit nil :stipple nil :background "#ecf0f1" :foreground "#2c3e50" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 110 :width normal :foundry "unknown" :family "mononoki"))))
  '(highlight ((t (:background "PaleTurquoise1"))))
  '(magit-item-highlight ((t (:inherit secondary-selection :background "#dfe4ea"))))
  '(magit-section-title ((t (:inherit header-line :foreground "gainsboro" :weight bold))))
