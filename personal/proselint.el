@@ -5,6 +5,6 @@
   ((warning line-start (file-name) ":" line ":" column ": "
         (id (one-or-more (not (any " "))))
         (message) line-end))
-  :modes (text-mode markdown-mode gfm-mode))
+  :modes (text-mode markdown-mode gfm-mode adoc-mode))
 
 (add-to-list 'flycheck-checkers 'proselint)
