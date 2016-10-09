@@ -19,12 +19,15 @@
  '(custom-safe-themes
    (quote
     ("119d3875a0e29c0c3af025a157493c950753c02519986365806276e370bd0033" default)))
+ '(dafny-verification-backend (quote server))
  '(elm-format-on-save t)
  '(ensime-graphical-tooltips nil)
  '(ensime-sbt-command "/home/sohum/.tilde/bin/sbt")
  '(ensime-tooltip-hints nil)
  '(fci-rule-color "#f1c40f")
+ '(flycheck-dafny-executable "/home/sohum/.tilde/bin/dafny")
  '(flycheck-haskell-ghc-executable "ghc")
+ '(flycheck-inferior-dafny-executable "/home/sohum/.tilde/bin/dafny-server")
  '(grep-command "grep -nH -e ")
  '(grep-find-command (quote ("find . -type f -exec grep -nH -e  {} +" . 34)))
  '(grep-find-ignored-directories
