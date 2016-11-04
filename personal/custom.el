@@ -63,6 +63,11 @@
  '(magit-use-overlays t)
  '(mode-require-final-newline nil)
  '(mouse-avoidance-mode nil nil (avoid))
+ '(org-confirm-babel-evaluate nil)
+ '(org-src-fontify-natively t)
+ '(org-src-preserve-indentation t)
+ '(org-src-tab-acts-natively t)
+ '(org-use-speed-commands t)
  '(paradox-automatically-star t)
  '(safe-local-variable-values
    (quote
