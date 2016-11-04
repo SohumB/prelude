@@ -124,7 +124,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#ecf0f1" :foreground "#2c3e50" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 110 :width normal :foundry "unknown" :family "mononoki"))))
+ '(default ((t (:inherit nil :stipple nil :background "#ecf0f1" :foreground "#2c3e50" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 113 :width normal :foundry "unknown" :family "mononoki"))))
  '(highlight ((t (:background "PaleTurquoise1"))))
  '(magit-item-highlight ((t (:inherit secondary-selection :background "#dfe4ea"))))
  '(magit-section-title ((t (:inherit header-line :foreground "gainsboro" :weight bold))))
