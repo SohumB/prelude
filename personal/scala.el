@@ -1,4 +1,4 @@
-(prelude-require-packages '(scala-mode2 ensime))
+(prelude-require-packages '(scala-mode ensime))
 (require 'prelude-scala)
 (require 'ensime)
 (setf ensime-startup-snapshot-notification nil)
