@@ -24,6 +24,9 @@
  '(ensime-graphical-tooltips nil)
  '(ensime-sbt-command "/home/sohum/.tilde/bin/sbt")
  '(ensime-tooltip-hints nil)
+ '(ess-swv-pdflatex-commands (quote ("xelatex" "texi2pdf" "pdflatex" "make")))
+ '(ess-swv-plug-into-AUCTeX-p t)
+ '(ess-swv-processor (quote knitr))
  '(fci-rule-color "#f1c40f")
  '(flycheck-dafny-executable "/home/sohum/.tilde/bin/dafny")
  '(flycheck-haskell-ghc-executable "ghc")
@@ -69,6 +72,7 @@
  '(org-src-tab-acts-natively t)
  '(org-use-speed-commands t)
  '(paradox-automatically-star t)
+ '(pdf-latex-command "xelatex")
  '(safe-local-variable-values
    (quote
     ((eval font-lock-add-keywords nil
