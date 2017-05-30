@@ -29,6 +29,7 @@
  '(ess-swv-processor (quote knitr))
  '(fci-rule-color "#f1c40f")
  '(flycheck-dafny-executable "/home/sohum/.tilde/bin/dafny")
+ '(flycheck-disabled-checkers (quote (tex-chktex)))
  '(flycheck-haskell-ghc-executable "ghc")
  '(flycheck-inferior-dafny-executable "/home/sohum/.tilde/bin/dafny-server")
  '(grep-command "grep -nH -e ")
