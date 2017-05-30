@@ -32,6 +32,7 @@
  '(flycheck-dafny-executable "/home/sohum/.tilde/bin/dafny")
  '(flycheck-disabled-checkers (quote (tex-chktex)))
  '(flycheck-haskell-ghc-executable "ghc")
+ '(flycheck-haskell-liquid-executable nil)
  '(flycheck-inferior-dafny-executable "/home/sohum/.tilde/bin/dafny-server")
  '(grep-command "grep -nH -e ")
  '(grep-find-command (quote ("find . -type f -exec grep -nH -e  {} +" . 34)))
