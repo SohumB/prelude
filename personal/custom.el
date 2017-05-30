@@ -28,6 +28,7 @@
  '(ess-swv-plug-into-AUCTeX-p t)
  '(ess-swv-processor (quote knitr))
  '(fci-rule-color "#f1c40f")
+ '(fill-column 110)
  '(flycheck-dafny-executable "/home/sohum/.tilde/bin/dafny")
  '(flycheck-disabled-checkers (quote (tex-chktex)))
  '(flycheck-haskell-ghc-executable "ghc")
