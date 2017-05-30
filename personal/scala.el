@@ -1,7 +1,7 @@
 (prelude-require-packages '(scala-mode ensime))
 (require 'prelude-scala)
 (require 'ensime)
-(setf ensime-startup-snapshot-notification nil)
+(setf ensime-startup-notification nil)
 ;(setq ensime-server-version "2.0.0-graph-SNAPSHOT")
 ;(add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
 (add-hook 'scala-mode-hook 'sp-hybrid-mode)
