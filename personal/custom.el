@@ -103,6 +103,7 @@
    "^\\s-*\\(--\\|create\\|d\\(?:elete\\|rop\\)\\|from\\|group\\|having\\|in\\(?:sert\\|t\\(?:ersect\\|o\\)\\)\\|order\\|se\\(?:\\(?:lec\\)?t\\)\\|truncate\\|u\\(?:nion\\|pdate\\)\\|where\\|begin\\|commit\\|rollback\\|alter\\)\\(\\b\\|\\s-\\)")
  '(sql-indent-offset 2)
  '(sql-user "sohum")
+ '(tab-width 2)
  '(tramp-default-method "ssh")
  '(tramp-verbose 9)
  '(vc-annotate-background "#ecf0f1")
