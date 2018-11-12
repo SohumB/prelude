@@ -16,6 +16,9 @@ places
 .smex-items
 savefile/
 projectile-bookmarks.eld
+prelude-cheatsheet.el
+prelude-cheatsheet.aux
+prelude-cheatsheet.log
 session*
 .cask
 tramp
