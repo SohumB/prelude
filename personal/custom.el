@@ -71,6 +71,7 @@
  '(js2-mode-indent-inhibit-undo nil)
  '(magit-diff-arguments (quote ("--ignore-all-space")))
  '(magit-diff-refine-hunk nil)
+ '(magit-fetch-arguments (quote ("--prune")))
  '(magit-git-executable "/usr/bin/git")
  '(magit-highlight-indentation nil)
  '(magit-highlight-trailing-whitespace nil)
