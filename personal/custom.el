@@ -12,6 +12,7 @@
      (java-mode . "java")
      (awk-mode . "awk")
      (other . "gnu"))))
+ '(cargo-process--custom-path-to-bin "/home/sohum/.cargo/bin/cargo")
  '(cider-lein-command "~/.tilde/bin/lein")
  '(clojure-defun-indents (quote (root render)))
  '(company-dabbrev-code-everywhere t)
@@ -37,6 +38,10 @@
  '(flycheck-haskell-ghc-executable "ghc")
  '(flycheck-haskell-liquid-executable nil)
  '(flycheck-inferior-dafny-executable "/home/sohum/.tilde/bin/dafny-server")
+ '(flycheck-rust-cargo-executable "/home/sohum/.cargo/bin/cargo")
+ '(flycheck-rust-clippy-executable "/home/sohum/.cargo/bin/cargo")
+ '(flycheck-rust-executable "/home/sohum/.cargo/bin/rustc")
+ '(gnutls-verify-error t)
  '(grep-command "grep -nH -e ")
  '(grep-find-command (quote ("find . -type f -exec grep -nH -e  {} +" . 34)))
  '(grep-find-ignored-directories
@@ -79,6 +84,8 @@
  '(org-use-speed-commands t)
  '(paradox-automatically-star t)
  '(pdf-latex-command "xelatex")
+ '(rust-cargo-bin "/home/sohum/.cargo/bin/cargo")
+ '(rust-rustfmt-bin "/home/sohum/.cargo/bin/rustfmt")
  '(safe-local-variable-values
    (quote
     ((eval font-lock-add-keywords nil
