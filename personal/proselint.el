@@ -8,3 +8,4 @@
   :modes (text-mode markdown-mode gfm-mode adoc-mode))
 
 (add-to-list 'flycheck-checkers 'proselint)
+(add-to-list 'flycheck-disabled-checkers 'proselint)
