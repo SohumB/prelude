@@ -70,6 +70,7 @@
  '(js2-highlight-level 3)
  '(js2-indent-switch-body t)
  '(js2-mode-indent-inhibit-undo nil)
+ '(latex-run-command "xelatex")
  '(magit-diff-arguments (quote ("--ignore-all-space")))
  '(magit-diff-refine-hunk nil)
  '(magit-fetch-arguments (quote ("--prune")))
@@ -92,7 +93,7 @@
      ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (keychain-environment ede-php-autoload-composer-installers package-demo demo-it flycheck-vale atomic-chrome d-mode exec-path-from-shell zop-to-char zenburn-theme yari yaml-mode which-key web-mode web-beautify w3m volatile-highlights visual-fill-column utop undo-tree twittering-mode tuareg tide sublimity sql-indent snapshot-timemachine smex smeargle smartrep smartparens smart-mode-line slime sicp shm scss-mode scala-mode2 ruby-tools rainbow-mode rainbow-delimiters racer php-mode paradox ov outshine org-tree-slide operate-on-number move-text mediawiki magit liquid-types less-css-mode ledger-mode latex-preview-pane latex-pretty-symbols key-chord json-rpc json-mode intero inf-ruby impatient-mode imenu-anywhere ido-vertical-mode ido-ubiquitous hungry-delete hledger-mode helm-projectile helm-descbinds guru-mode grizzl gotest god-mode go-projectile gitignore-mode gitconfig-mode git-timemachine gist geiser flycheck-rust flycheck-ocaml flycheck-ledger flx-ido flatui-theme expand-region ethan-wspace ess-view ess-smart-underscore ess-smart-equals ess-R-object-popup ess-R-data-view erlang epresent ensime elm-mode elisp-slime-nav editorconfig edit-server-htmlize edbi easy-kill discover-my-major diminish diff-hl cython-mode csv-mode crux company-go company-auctex company-anaconda column-enforce-mode color-identifiers-mode coffee-mode cider cdlatex cargo browse-kill-ring boogie-friends beacon auto-complete anzu alchemist ag adoc-mode ack-and-a-half ace-window ace-jump-mode ace-jump-buffer ac-js2)))
+    (lsp-ui lsp-mode indium math-symbol-lists ripgrep ts-comint tagedit keychain-environment ede-php-autoload-composer-installers package-demo demo-it flycheck-vale atomic-chrome d-mode exec-path-from-shell zop-to-char zenburn-theme yari yaml-mode which-key web-mode web-beautify w3m volatile-highlights visual-fill-column utop undo-tree twittering-mode tuareg tide sublimity sql-indent snapshot-timemachine smex smeargle smartrep smartparens smart-mode-line slime sicp shm scss-mode scala-mode2 ruby-tools rainbow-mode rainbow-delimiters racer php-mode paradox ov outshine org-tree-slide operate-on-number move-text mediawiki magit liquid-types less-css-mode ledger-mode latex-preview-pane latex-pretty-symbols key-chord json-rpc json-mode intero inf-ruby impatient-mode imenu-anywhere ido-vertical-mode ido-ubiquitous hungry-delete hledger-mode helm-projectile helm-descbinds guru-mode grizzl gotest god-mode go-projectile gitignore-mode gitconfig-mode git-timemachine gist geiser flycheck-rust flycheck-ocaml flycheck-ledger flx-ido flatui-theme expand-region ethan-wspace ess-view ess-smart-underscore ess-smart-equals ess-R-object-popup ess-R-data-view erlang epresent ensime elm-mode elisp-slime-nav editorconfig edit-server-htmlize edbi easy-kill discover-my-major diminish diff-hl cython-mode csv-mode crux company-go company-auctex company-anaconda column-enforce-mode color-identifiers-mode coffee-mode cider cdlatex cargo browse-kill-ring boogie-friends beacon auto-complete anzu alchemist ag adoc-mode ack-and-a-half ace-window ace-jump-mode ace-jump-buffer ac-js2)))
  '(paradox-automatically-star t)
  '(pdf-latex-command "xelatex")
  '(rust-cargo-bin "/home/sohum/.cargo/bin/cargo")
@@ -126,6 +127,7 @@
  '(sql-user "sohum")
  '(tab-width 2)
  '(tramp-default-method "ssh" nil (tramp))
+ '(tramp-terminal-type "tramp")
  '(tramp-verbose 9 nil (tramp))
  '(vc-annotate-background "#ecf0f1")
  '(vc-annotate-color-map
@@ -147,7 +149,9 @@
  '(web-mode-code-indent-offset 2)
  '(web-mode-enable-auto-pairing t)
  '(web-mode-markup-indent-offset 2)
- '(whitespace-line-column 100))
+ '(whitespace-line-column 100)
+ '(with-editor-sleeping-editor
+   "sh -c 'printf \"WITH-EDITOR: $$ OPEN $0\\037 IN $(pwd)\\n\"; sleep 604800 & sleep=$!; trap \"kill $sleep; exit 0\" USR1; trap \"kill $sleep; exit 1\" USR2; wait $sleep'"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
