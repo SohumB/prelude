@@ -12,6 +12,7 @@
      (java-mode . "java")
      (awk-mode . "awk")
      (other . "gnu"))))
+ '(cargo-process--command-flags "-- --nocapture")
  '(cargo-process--custom-path-to-bin "/home/sohum/.cargo/bin/cargo")
  '(cider-lein-command "~/.tilde/bin/lein")
  '(clojure-defun-indents (quote (root render)))
