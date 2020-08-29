@@ -2,7 +2,7 @@
 
 (add-to-list 'auto-mode-alist '("\\.hbs\\'" . web-mode))
 
-(add-hook 'web-mode-hook 'smartparens-html)
+;;(add-hook 'web-mode-hook 'smartparens-html)
 
 ;; (defun sp-web-mode-is-code-context (id action context)
 ;;   (when (and (eq action 'insert)
