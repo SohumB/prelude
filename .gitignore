@@ -32,3 +32,5 @@ target/
 ido.last
 smex-items
 .org-id-locations
+.lsp-session-*
+transient
