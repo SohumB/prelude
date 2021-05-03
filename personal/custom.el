@@ -7,32 +7,30 @@
    ["#ecf0f1" "#e74c3c" "#2ecc71" "#f1c40f" "#2492db" "#9b59b6" "#1abc9c" "#2c3e50"])
  '(c-basic-offset 2)
  '(c-default-style
-   (quote
-    ((c-mode . "java")
+   '((c-mode . "java")
      (java-mode . "java")
      (awk-mode . "awk")
-     (other . "gnu"))))
+     (other . "gnu")))
  '(cargo-process--command-flags "-- --nocapture")
  '(cargo-process--custom-path-to-bin "/home/sohum/.cargo/bin/cargo")
  '(cider-lein-command "~/.tilde/bin/lein")
- '(clojure-defun-indents (quote (root render)))
+ '(clojure-defun-indents '(root render))
  '(company-dabbrev-code-everywhere t)
  '(css-indent-offset 2)
  '(custom-safe-themes
-   (quote
-    ("119d3875a0e29c0c3af025a157493c950753c02519986365806276e370bd0033" default)))
- '(dafny-verification-backend (quote server))
+   '("119d3875a0e29c0c3af025a157493c950753c02519986365806276e370bd0033" default))
+ '(dafny-verification-backend 'server)
  '(elm-format-on-save t)
  '(ensime-graphical-tooltips nil)
  '(ensime-sbt-command "/home/sohum/.tilde/bin/sbt")
  '(ensime-tooltip-hints nil)
- '(ess-swv-pdflatex-commands (quote ("xelatex" "texi2pdf" "pdflatex" "make")))
+ '(ess-swv-pdflatex-commands '("xelatex" "texi2pdf" "pdflatex" "make"))
  '(ess-swv-plug-into-AUCTeX-p t)
- '(ess-swv-processor (quote knitr))
+ '(ess-swv-processor 'knitr)
  '(fci-rule-color "#f1c40f")
  '(fill-column 90)
  '(flycheck-dafny-executable "/home/sohum/.tilde/bin/dafny")
- '(flycheck-disabled-checkers (quote (tex-chktex)))
+ '(flycheck-disabled-checkers '(tex-chktex))
  '(flycheck-esverify-executable "/home/sohum/.tilde/bin/esverify")
  '(flycheck-esverify-z3 "/home/sohum/Documents/z3-4.5.0-x64-debian-8.5/bin/z3")
  '(flycheck-esverify-z3-executable "/home/sohum/tmp/z3-4.5.0-x64-debian-8.5/bin/z3")
@@ -44,36 +42,34 @@
  '(flycheck-rust-executable "/home/sohum/.cargo/bin/rustc")
  '(gnutls-verify-error t)
  '(grep-command "grep -nH -e ")
- '(grep-find-command (quote ("find . -type f -exec grep -nH -e  {} +" . 34)))
+ '(grep-find-command '("find . -type f -exec grep -nH -e  {} +" . 34))
  '(grep-find-ignored-directories
-   (quote
-    ("SCCS" "RCS" "CVS" "MCVS" ".svn" ".git" ".hg" ".bzr" "_MTN" "_darcs" "{arch}" "node_modules" "dist" "bower_components" "tmp" "coverage" "build" "target" ".ensime_cache" "orcats_files")))
+   '("SCCS" "RCS" "CVS" "MCVS" ".svn" ".git" ".hg" ".bzr" "_MTN" "_darcs" "{arch}" "node_modules" "dist" "bower_components" "tmp" "coverage" "build" "target" ".ensime_cache" "orcats_files"))
  '(grep-find-ignored-files
-   (quote
-    (".ensime" ".#*" "*.beam" "*.vee" "*.jam" "*.cmti" "*.cmt" "*.annot" "*.cmi" "*.cmxa" "*.cma" "*.cmx" "*.cmo" "*.o" "*~" "*.bin" "*.lbin" "*.so" "*.a" "*.ln" "*.blg" "*.bbl" "*.elc" "*.lof" "*.glo" "*.idx" "*.lot" "*.fmt" "*.tfm" "*.class" "*.fas" "*.lib" "*.mem" "*.x86f" "*.sparcf" "*.dfsl" "*.pfsl" "*.d64fsl" "*.p64fsl" "*.lx64fsl" "*.lx32fsl" "*.dx64fsl" "*.dx32fsl" "*.fx64fsl" "*.fx32fsl" "*.sx64fsl" "*.sx32fsl" "*.wx64fsl" "*.wx32fsl" "*.fasl" "*.ufsl" "*.fsl" "*.dxl" "*.lo" "*.la" "*.gmo" "*.mo" "*.toc" "*.aux" "*.cp" "*.fn" "*.ky" "*.pg" "*.tp" "*.vr" "*.cps" "*.fns" "*.kys" "*.pgs" "*.tps" "*.vrs" "*.pyc" "*.pyo" "*.map")))
+   '(".ensime" ".#*" "*.beam" "*.vee" "*.jam" "*.cmti" "*.cmt" "*.annot" "*.cmi" "*.cmxa" "*.cma" "*.cmx" "*.cmo" "*.o" "*~" "*.bin" "*.lbin" "*.so" "*.a" "*.ln" "*.blg" "*.bbl" "*.elc" "*.lof" "*.glo" "*.idx" "*.lot" "*.fmt" "*.tfm" "*.class" "*.fas" "*.lib" "*.mem" "*.x86f" "*.sparcf" "*.dfsl" "*.pfsl" "*.d64fsl" "*.p64fsl" "*.lx64fsl" "*.lx32fsl" "*.dx64fsl" "*.dx32fsl" "*.fx64fsl" "*.fx32fsl" "*.sx64fsl" "*.sx32fsl" "*.wx64fsl" "*.wx32fsl" "*.fasl" "*.ufsl" "*.fsl" "*.dxl" "*.lo" "*.la" "*.gmo" "*.mo" "*.toc" "*.aux" "*.cp" "*.fn" "*.ky" "*.pg" "*.tp" "*.vr" "*.cps" "*.fns" "*.kys" "*.pgs" "*.tps" "*.vrs" "*.pyc" "*.pyo" "*.map"))
  '(grep-find-template "find . <X> -type f <F> -exec grep <C> -nH -e <R> {} +")
- '(grep-highlight-matches (quote auto))
+ '(grep-highlight-matches 'auto)
  '(grep-scroll-output t)
  '(grep-template "grep <X> <C> -nH -e <R> <F>")
  '(grep-use-null-device nil)
  '(haskell-process-path-cabal "~/.cabal/bin/cabal")
  '(haskell-process-path-ghci "ghci")
  '(haskell-process-path-stack "/home/sohum/.tilde/bin/stack")
- '(haskell-process-type (quote stack-ghci))
+ '(haskell-process-type 'stack-ghci)
  '(haskell-process-use-presentation-mode t)
- '(hl-paren-background-colors (quote ("#2492db" "#95a5a6" nil)))
- '(hl-paren-colors (quote ("#ecf0f1" "#ecf0f1" "#c0392b")))
+ '(hl-paren-background-colors '("#2492db" "#95a5a6" nil))
+ '(hl-paren-colors '("#ecf0f1" "#ecf0f1" "#c0392b"))
  '(intero-stack-executable "/home/sohum/.tilde/bin/stack")
  '(js-indent-level 2)
  '(js2-bounce-indent-p nil)
- '(js2-global-externs (quote ("Em" "Ember")))
+ '(js2-global-externs '("Em" "Ember"))
  '(js2-highlight-level 3)
  '(js2-indent-switch-body t)
  '(js2-mode-indent-inhibit-undo nil)
  '(latex-run-command "xelatex")
- '(magit-diff-arguments (quote ("--ignore-all-space")))
+ '(magit-diff-arguments '("--ignore-all-space"))
  '(magit-diff-refine-hunk nil)
- '(magit-fetch-arguments (quote ("--prune")))
+ '(magit-fetch-arguments '("--prune"))
  '(magit-git-executable "/usr/bin/git")
  '(magit-highlight-indentation nil)
  '(magit-highlight-trailing-whitespace nil)
@@ -88,39 +84,32 @@
  '(org-src-tab-acts-natively t)
  '(org-use-speed-commands t)
  '(package-archives
-   (quote
-    (("gnu" . "https://elpa.gnu.org/packages/")
-     ("melpa" . "https://melpa.org/packages/"))))
+   '(("gnu" . "https://elpa.gnu.org/packages/")
+     ("melpa" . "https://melpa.org/packages/")))
  '(package-selected-packages
-   (quote
-    (lsp-ui lsp-mode indium math-symbol-lists ripgrep ts-comint tagedit keychain-environment ede-php-autoload-composer-installers package-demo demo-it flycheck-vale atomic-chrome d-mode exec-path-from-shell zop-to-char zenburn-theme yari yaml-mode which-key web-mode web-beautify w3m volatile-highlights visual-fill-column utop undo-tree twittering-mode tuareg tide sublimity sql-indent snapshot-timemachine smex smeargle smartrep smartparens smart-mode-line slime sicp shm scss-mode scala-mode2 ruby-tools rainbow-mode rainbow-delimiters racer php-mode paradox ov outshine org-tree-slide operate-on-number move-text mediawiki magit liquid-types less-css-mode ledger-mode latex-preview-pane latex-pretty-symbols key-chord json-rpc json-mode intero inf-ruby impatient-mode imenu-anywhere ido-vertical-mode ido-ubiquitous hungry-delete hledger-mode helm-projectile helm-descbinds guru-mode grizzl gotest god-mode go-projectile gitignore-mode gitconfig-mode git-timemachine gist geiser flycheck-rust flycheck-ocaml flycheck-ledger flx-ido flatui-theme expand-region ethan-wspace ess-view ess-smart-underscore ess-smart-equals ess-R-object-popup ess-R-data-view erlang epresent ensime elm-mode elisp-slime-nav editorconfig edit-server-htmlize edbi easy-kill discover-my-major diminish diff-hl cython-mode csv-mode crux company-go company-auctex company-anaconda column-enforce-mode color-identifiers-mode coffee-mode cider cdlatex cargo browse-kill-ring boogie-friends beacon auto-complete anzu alchemist ag adoc-mode ack-and-a-half ace-window ace-jump-mode ace-jump-buffer ac-js2)))
+   '(tree-sitter-langs tree-sitter magit-delta projectile-ripgrep speed-type lsp-ui lsp-mode indium math-symbol-lists ripgrep ts-comint tagedit keychain-environment ede-php-autoload-composer-installers package-demo demo-it flycheck-vale atomic-chrome d-mode exec-path-from-shell zop-to-char zenburn-theme yari yaml-mode which-key web-mode web-beautify w3m volatile-highlights visual-fill-column utop undo-tree twittering-mode tuareg tide sublimity sql-indent snapshot-timemachine smex smeargle smartrep smartparens smart-mode-line slime sicp shm scss-mode scala-mode2 ruby-tools rainbow-mode rainbow-delimiters racer php-mode paradox ov outshine org-tree-slide operate-on-number move-text mediawiki magit liquid-types less-css-mode ledger-mode latex-preview-pane latex-pretty-symbols key-chord json-rpc json-mode intero inf-ruby impatient-mode imenu-anywhere ido-vertical-mode ido-ubiquitous hungry-delete hledger-mode helm-projectile helm-descbinds guru-mode grizzl gotest god-mode go-projectile gitignore-mode gitconfig-mode git-timemachine gist geiser flycheck-rust flycheck-ocaml flycheck-ledger flx-ido flatui-theme expand-region ethan-wspace ess-view ess-smart-underscore ess-smart-equals ess-R-object-popup ess-R-data-view erlang epresent ensime elm-mode elisp-slime-nav editorconfig edit-server-htmlize edbi easy-kill discover-my-major diminish diff-hl cython-mode csv-mode crux company-go company-auctex company-anaconda column-enforce-mode color-identifiers-mode coffee-mode cider cdlatex cargo browse-kill-ring boogie-friends beacon auto-complete anzu alchemist ag adoc-mode ack-and-a-half ace-window ace-jump-mode ace-jump-buffer ac-js2))
  '(paradox-automatically-star t)
  '(pdf-latex-command "xelatex")
  '(rust-cargo-bin "/home/sohum/.cargo/bin/cargo")
  '(rust-rustfmt-bin "/home/sohum/.cargo/bin/rustfmt")
  '(safe-local-variable-values
-   (quote
-    ((eval font-lock-add-keywords nil
-           (\`
-            (((\,
-               (concat "("
+   '((eval font-lock-add-keywords nil
+           `((,(concat "("
                        (regexp-opt
-                        (quote
-                         ("sp-do-move-op" "sp-do-move-cl" "sp-do-put-op" "sp-do-put-cl" "sp-do-del-op" "sp-do-del-cl"))
+                        '("sp-do-move-op" "sp-do-move-cl" "sp-do-put-op" "sp-do-put-cl" "sp-do-del-op" "sp-do-del-cl")
                         t)
-                       "\\_>"))
-              1
-              (quote font-lock-variable-name-face)))))
-     (SQL-product . postgres))))
+                       "\\_>")
+              1 'font-lock-variable-name-face)))
+     (SQL-product . postgres)))
  '(sbt:program-name "/home/sohum/.tilde/bin/sbt")
  '(scala-indent:use-javadoc-style t)
  '(sml/active-background-color "#34495e")
  '(sml/active-foreground-color "#ecf0f1")
  '(sml/inactive-background-color "#dfe4ea")
  '(sml/inactive-foreground-color "#34495e")
- '(sp-hybrid-kill-entire-symbol (quote sp-point-in-string))
+ '(sp-hybrid-kill-entire-symbol 'sp-point-in-string)
  '(sp-hybrid-kill-excessive-whitespace t)
- '(sp-navigate-consider-stringlike-sexp (quote (latex-mode scala-mode)))
+ '(sp-navigate-consider-stringlike-sexp '(latex-mode scala-mode))
  '(sql-indent-first-column-regexp
    "^\\s-*\\(--\\|create\\|d\\(?:elete\\|rop\\)\\|from\\|group\\|having\\|in\\(?:sert\\|t\\(?:ersect\\|o\\)\\)\\|order\\|se\\(?:\\(?:lec\\)?t\\)\\|truncate\\|u\\(?:nion\\|pdate\\)\\|where\\|begin\\|commit\\|rollback\\|alter\\)\\(\\b\\|\\s-\\)")
  '(sql-indent-offset 2)
@@ -131,8 +120,7 @@
  '(tramp-verbose 9 nil (tramp))
  '(vc-annotate-background "#ecf0f1")
  '(vc-annotate-color-map
-   (quote
-    ((30 . "#e74c3c")
+   '((30 . "#e74c3c")
      (60 . "#c0392b")
      (90 . "#e67e22")
      (120 . "#d35400")
@@ -143,15 +131,13 @@
      (270 . "#1abc9c")
      (300 . "#16a085")
      (330 . "#2492db")
-     (360 . "#0a74b9"))))
+     (360 . "#0a74b9")))
  '(vc-annotate-very-old-color "#0a74b9")
  '(web-mode-attr-indent-offset 2)
  '(web-mode-code-indent-offset 2)
  '(web-mode-enable-auto-pairing t)
  '(web-mode-markup-indent-offset 2)
- '(whitespace-line-column 100)
- '(with-editor-sleeping-editor
-   "sh -c 'printf \"WITH-EDITOR: $$ OPEN $0\\037 IN $(pwd)\\n\"; sleep 604800 & sleep=$!; trap \"kill $sleep; exit 0\" USR1; trap \"kill $sleep; exit 1\" USR2; wait $sleep'"))
+ '(whitespace-line-column 100))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
